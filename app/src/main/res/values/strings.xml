@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quote Generator</string>
+    <string name="quote_1">"The only way to do great work is to love what you do."<b>\n\n– Steve Jobs</b></string>
+    <string name="quote_2">"In three words I can sum up everything I've learned about life: it goes on."<b>\n\n– Robert Frost</b></string>
+    <string name="quote_3">"Success is not final, failure is not fatal: it is the courage to continue that counts."<b>\n\n– Winston Churchill</b></string>
+    <string name="quote_4">"Life is what happens when you're busy making other plans."<b>\n\n– John Lennon</b></string>
+    <string name="quote_5">"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."<b>\n\n– Ralph Waldo Emerson</b></string>
+    <string name="quote_6">"The only thing necessary for the triumph of evil is for good men to do nothing."<b>\n\n– Edmund Burke</b></string>
+    <string name="quote_7">"If you want to go fast, go alone. If you want to go far, go together."<b>\n\n– African Proverb</b></string>
+    <string name="quote_8">"Do not dwell in the past; do not dream of the future, concentrate the mind on the present moment."<b>\n\n– Buddha</b></string>
+    <string name="quote_9">"The best time to plant a tree was 20 years ago. The second best time is now."<b>\n\n– Chinese Proverb</b></string>
+    <string name="quote_10">"The only limit to our realization of tomorrow will be our doubts of today."<b>\n\n– Franklin D. Roosevelt</b></string>
+    <string name="quote_11">"The only thing we have to fear is fear itself."<b>\n\n– Franklin D. Roosevelt</b></string>
+    <string name="quote_12">"Life is 10% what happens to us and 90% how we react to it."<b>\n\n– Charles R. Swindoll</b></string>
+    <string name="quote_13">"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."<b>\n\n– Ralph Waldo Emerson</b></string>
+    <string name="quote_14">"The only true wisdom is in knowing you know nothing."<b>\n\n– Socrates</b></string>
+    <string name="quote_15">"In the end, we will remember not the words of our enemies, but the silence of our friends."<b>\n\n– Martin Luther King Jr.</b></string>
+    <string name="quote_16">"The best revenge is massive success."<b>\n\n– Frank Sinatra</b></string>
+    <string name="quote_17">"Life is really simple, but we insist on making it complicated."<b>\n\n– Confucius</b></string>
+    <string name="quote_18">"It is during our darkest moments that we must focus to see the light."<b>\n\n– Aristotle Onassis</b></string>
+    <string name="quote_19">"The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it."<b>\n\n– Jordan Belfort</b></string>
+    <string name="quote_20">"The future belongs to those who believe in the beauty of their dreams."<b>\n\n– Eleanor Roosevelt</b></string>
+</resources>
