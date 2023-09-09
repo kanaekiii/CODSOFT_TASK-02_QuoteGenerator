@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_round_favorite_24.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\round_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codsoft.quotegenerator.app-merged_res-28:/layout_favorite_quote_item.xml.flat",
+        "source": "com.codsoft.quotegenerator.app-main-30:/layout/favorite_quote_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\menu_navigation.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_baseline_refresh_24.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\baseline_refresh_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\layout_activity_favorite_quotes.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\layout\\activity_favorite_quotes.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_baseline_format_quote_24.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\baseline_format_quote_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\layout_item_favorite_quote.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\layout\\item_favorite_quote.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\baseline_share_24.xml"
+    },
+    {
+        "merged": "com.codsoft.quotegenerator.app-merged_res-28:/layout_activity_favorite_quotes.xml.flat",
+        "source": "com.codsoft.quotegenerator.app-main-30:/layout/activity_favorite_quotes.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_round_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\round_favorite_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_filled_button_background.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\filled_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\abina\\.gradle\\daemon\\8.0\\com.codsoft.quotegenerator.app-main-30:\\drawable\\ic_launcher_background.xml"
+    }
+]
