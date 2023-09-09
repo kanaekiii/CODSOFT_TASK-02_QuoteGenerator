@@ -3,13 +3,20 @@ package com.codsoft.quotegenerator;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -23,6 +30,9 @@ public class MainActivity extends AppCompatActivity{
     private String mainText = "";
     private TextView tvText;
     private FloatingActionButton fabNewQuote;
+    private RecyclerView recyclerView;
+    private List<Integer> favoriteQuotes = new ArrayList<>();
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +41,8 @@ public class MainActivity extends AppCompatActivity{
 
         tvText = findViewById(R.id.quoteText);
         fabNewQuote = findViewById(R.id.fab);
+
+        favoriteQuotes = new ArrayList<>();
 
         listQuotes.add(R.string.quote_1);
         listQuotes.add(R.string.quote_2);
@@ -55,6 +67,62 @@ public class MainActivity extends AppCompatActivity{
 
         quoteOnAppLoaded();
         clickNewQuote();
+
+        Button favButton = findViewById(R.id.favBtn);
+        final boolean[] isFilled = {false};
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        if (quoteNumber > 0 && quoteNumber <= listQuotes.size()) {
+            isFilled[0] = favoriteQuotes.contains(listQuotes.get(quoteNumber - 1));
+        }
+
+        favButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (isFilled[0]) {
+                    favButton.setBackgroundResource(R.drawable.round_favorite_border_24);
+                    isFilled[0] = false;
+
+                    if (quoteNumber > 0 && quoteNumber <= listQuotes.size()) {
+                        favoriteQuotes.remove(Integer.valueOf(listQuotes.get(quoteNumber - 1)));
+                        saveFavoriteQuotesToSharedPreferences(favoriteQuotes);
+                        Toast.makeText(MainActivity.this, "Removed from Favorites", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    favButton.setBackgroundResource(R.drawable.filled_button_background);
+                    isFilled[0] = true;
+
+                    if (quoteNumber > 0 && quoteNumber <= listQuotes.size()) {
+                        favoriteQuotes.add(listQuotes.get(quoteNumber - 1));
+                        saveFavoriteQuotesToSharedPreferences(favoriteQuotes);
+                        Toast.makeText(MainActivity.this, "Added to Favorites", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
+        restoreFavoriteQuotesFromSharedPreferences();
+    }
+
+    private void saveFavoriteQuotesToSharedPreferences(List<Integer> favoriteQuotes) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        StringBuilder favorites = new StringBuilder();
+        for (int quote : favoriteQuotes) {
+            favorites.append(quote).append(",");
+        }
+        editor.putString("favoriteQuotes", favorites.toString());
+        editor.apply();
+    }
+
+    private List<Integer> restoreFavoriteQuotesFromSharedPreferences() {
+        List<Integer> favoriteQuotes = new ArrayList<>();
+        String favoritesString = sharedPreferences.getString("favoriteQuotes", "");
+        String[] favoritesArray = favoritesString.split(",");
+        for (String favorite : favoritesArray) {
+            if (!favorite.isEmpty()) {
+                favoriteQuotes.add(Integer.parseInt(favorite));
+            }
+        }
+        return favoriteQuotes;
     }
 
     private void clickNewQuote() {
@@ -137,6 +205,11 @@ public class MainActivity extends AppCompatActivity{
             shareIntent.setType("text/plain");
             shareIntent.putExtra(Intent.EXTRA_TEXT, mainText);
             startActivity(Intent.createChooser(shareIntent, "Share this quote!"));
+            return true;
+        } if (item.getItemId() == R.id.nav_fav) {
+            Intent intent = new Intent(MainActivity.this, FavoriteQuotesActivity.class);
+            intent.putIntegerArrayListExtra("favoriteQuotes", new ArrayList<>(favoriteQuotes)); // Pass favoriteQuotes as an intent extra
+            startActivity(intent);
             return true;
         } else {
             return super.onOptionsItemSelected(item);
